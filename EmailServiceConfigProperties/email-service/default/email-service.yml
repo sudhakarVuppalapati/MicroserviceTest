@@ -8,14 +8,14 @@ spring:
     username: sa
     password:
   kafka:
-    bootstrap-servers: 172.18.0.3:9092
+    bootstrap-servers: git push:9092
     topic:
       userRegistered: USER_REGISTERED_TOPIC
   mail:
     host: smtp.gmail.com
     port: 587
-    username: <username>
-    password: <password>
+    username: sudhavuppalapati@gmail.com
+    password: Sudha123
     properties.mail.smtp:
       auth: true
       starttls.enable: true
